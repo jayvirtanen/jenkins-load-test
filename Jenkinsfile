@@ -128,48 +128,6 @@ spec:
                         junit 'mock-junit.xml'
                         }
                     }
-                    stage("Load 19"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
-                    stage("Load 20"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
-                    stage("Load 21"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
-                    stage("Load 22"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
-                    stage("Load 23"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
-                    stage("Load 24"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
-                    stage("Load 25"){
-                        steps{
-                        mockLoad 120
-                        junit 'mock-junit.xml'
-                        }
-                    }
                 }
             }
         }
