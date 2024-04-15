@@ -54,7 +54,7 @@ pipeline{
                         mockLoad 600
                         }
                     }
-                    stage("Load 10"){
+                    stage("Load 10-2"){
                         steps{
                         mockLoad 600
                         }
