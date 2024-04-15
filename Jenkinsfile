@@ -54,75 +54,82 @@ pipeline{
                         mockLoad 600
                         }
                     }
+                    stage("Load 10"){
+                        steps{
+                        mockLoad 600
+                        }
+                    }
                     stage("Load 11"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 12"){
+                    }
+                                        stage("Load 12"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 13"){
+                    }
+                                        stage("Load 13"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 14"){
+                    }
+                                        stage("Load 14"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 15"){
+                    }
+                                        stage("Load 15"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 16"){
+                    }
+                                        stage("Load 16"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 17"){
+                    }
+                                        stage("Load 17"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 18"){
+                    }
+                                        stage("Load 18"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 19"){
+                    }
+                                        stage("Load 19"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 20"){
+                    }
+                                        stage("Load 20"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 21"){
+                    }
+                                        stage("Load 21"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 22"){
+                    }
+                                        stage("Load 22"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 23"){
+                    }
+                                        stage("Load 23"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 24"){
+                    }
+                                        stage("Load 24"){
                         steps{
                         mockLoad 600
                         }
-                    stage("Load 25"){
-                        steps{
-                        mockLoad 600
-                        }
-                    stage("Load 26"){
-                        steps{
-                        mockLoad 600
-                        }
-                    stage("Load 27"){
-                        steps{
-                        mockLoad 600
-                        }
-                    stage("Load 28"){
+                    }
+                                        stage("Load 25"){
                         steps{
                         mockLoad 600
                         }
