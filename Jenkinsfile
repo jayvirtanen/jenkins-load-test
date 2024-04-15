@@ -7,7 +7,7 @@ kind: Pod
 spec:
   containers:
   - name: shell
-    image: ubuntu
+    image: maven
     command:
     - sleep
     args:
