@@ -21,6 +21,7 @@ spec:
             stage("print changeset"){
                 steps{
                     script{
+                        //test
                         println currentBuild.changeSets[0].getLogs()
                     }
                 }
