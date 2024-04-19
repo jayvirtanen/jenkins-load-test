@@ -18,7 +18,7 @@ spec:
         }
     }
         stages{
-            stage(print changeset){
+            stage("print changeset"){
                 steps{
                     script{
                         println currentBuild.changeSets
