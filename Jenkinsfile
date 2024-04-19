@@ -18,6 +18,13 @@ spec:
         }
     }
         stages{
+            stage(print changeset){
+                steps{
+                    script{
+                        println currentBuild.changeSets
+                    }
+                }
+            }
             stage("Run Mock Load")
             {
                 parallel{
