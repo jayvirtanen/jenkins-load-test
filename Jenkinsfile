@@ -17,13 +17,6 @@ spec:
         }
     }
         stages{
-            stage("print changeset"){
-                steps{
-                    script{
-                        println currentBuild.changeSets[0].getLogs()[0].getAuthor()
-                    }
-                }
-            }
             stage("Run Mock Load")
             {
                 parallel{
